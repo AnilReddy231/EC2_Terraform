@@ -12,11 +12,10 @@ tags = {
 
 dj_instance_size = "t2.micro"
 
-dj_dns           = "AWSLOPENDJQ01"
-security_group_id = "sg-0848ac2b7286548d5"
-subnet_id		 = "subnet-0ee1104ef2e954b91"
+dj_dns           = "AWSLOPENDJQxx"
+subnet_id		 = "subnet-xxxx"
 env_name		 = "forgerock"
 iam_role		 = "S3-Admin-Full-Access"
-subnet_id		 = "subnet-0ee1104ef2e954b91"
-sg_id 			 = "sg-0848ac2b7286548d5"
-private_key		 = "/Users/anilreddy/Downloads/SSHKeyPair/forgerock_key.pem"
+subnet_id		 = "subnet-xxx"
+sg_id 			 = "sg-xxxxx"
+private_key		 = "/path/to/forgerock_key.pem"
