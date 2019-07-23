@@ -37,5 +37,5 @@ sudo chown -R ec2-user:ec2-user /opt/opendj
           --adminConnectorPort 4444 \
           --ldapPort 1389 \
           --ldapsPort 1636 \
-          --baseDn dc=sealedair,dc=io \
+          --baseDn dc=beemer,dc=io \
           --acceptLicense
